@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Invgate.Disenio.Especie" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Especie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Mascota">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAQAAAAgAAAAADAQAEAAAAACAAAEAIAAAAEQAAAAAg=</HashCode>
+      <FileName>Mascota.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="comoGruñir" />
+      <Property Name="comoMoverse" />
+      <Property Name="especie" />
+      <Property Name="gruñido" />
+      <Property Name="estadoMascota" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="teme" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Invgate.Disenio.Estado.EstadoDespierto" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Estado\EstadoDespierto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Estado.EstadoDormido" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Estado\EstadoDormido.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Estado.EstadoFeliz" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Estado\EstadoFeliz.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Estado.EstadoTriste" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Estado\EstadoTriste.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Gruñidos.Gruñido">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Gruñidos\Gruñido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invgate.Disenio.Gruñidos.GruñidoMelodioso">
+    <Position X="2.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gruñidos\GruñidoMelodioso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invgate.Disenio.Gruñidos.GruñidoRuidoso">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Gruñidos\GruñidoRuidoso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invgate.Disenio.Gruñidos.Silencio">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gruñidos\Silencio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invgate.Disenio.Movimiento.MovimientoNormal" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movimiento\MovimientoNormal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Invgate.Disenio.Movimiento.MovimientoNulo" BaseTypeListCollapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movimiento\MovimientoNulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Invgate.Disenio.Estado.IEstadoMascota">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Estado\IEstadoMascota.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Invgate.Disenio.Movimiento.IMovimiento">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movimiento\IMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

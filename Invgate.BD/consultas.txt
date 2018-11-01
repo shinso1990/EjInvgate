@@ -1,0 +1,19 @@
+﻿--2 opciones
+--como no utilicé la base que pasaron por archivo desconozco el nombre de la tabla. por tal razón le puse de nombre tabla_clientes
+----dejo dos opciones para lo mismo. 
+--La 2da no se si en una base de datos que no sea msqlserver funciona pero imagino que se puede hacer de forma similar 
+
+SELECT z.ciudad, (SELECT TOP 1 t1.cliente FROM tabla_clientes t1 where t1.ciudad = ciudad and t1.monto = max(z.monto)   ORDER BY t1.monto desc, t1.cliente asc  ) as Cliente
+from tabla_clientes z
+group by  z.ciudad
+order by ciudad asc
+
+
+
+select t.ciudad,t.cliente from (select
+ ROW_NUMBER() OVER(PARTITION BY ciudad ORDER BY monto desc, cliente asc)  as rn
+ ,*
+from 
+tabla_clientes) t
+where t.rn = 1
+order by t.ciudad asc
